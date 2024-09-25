@@ -39,4 +39,24 @@ public class ProductRepository : IProductRepository
         // TODO Implement the method to update a product int the repository.
         throw new NotImplementedException();
     }
+
+    public Task<Product> GetProductAsync(int productId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<int> AddProductAsync(Product product)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task RemoveProductAsync(int productId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateProductAsync(Product product)
+    {
+        throw new NotImplementedException();
+    }
 }
